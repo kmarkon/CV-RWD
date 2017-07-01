@@ -1,2 +1,2 @@
 # CV2
-CV with: RWD, Bootstrap, Sass
+CV with: HTML, RWD, Bootstrap, Sass
