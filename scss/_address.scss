@@ -1,0 +1,122 @@
+.address{
+    // border:1px solid red;
+    margin-top: 13px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    .intro{
+      margin-top: 10px;
+      color:#415A76;
+      border-bottom:1px solid lightgrey;
+      }
+      .data{
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        margin-top: 5px;
+        i{
+          color:#415A76;
+        }
+        p, a{
+        padding-left: 20px;
+        font-size: 12px;
+        margin: 0;
+        color:grey;
+        text-decoration: none;
+      }
+    }
+}
+
+.skills{
+    .intro{
+      color:#415A76;
+      border-bottom:1px solid lightgrey;
+      margin-top: 30px;
+    }
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    div{
+      display: flex;
+      flex-direction: column;
+      // border:1px solid red;
+      p{
+        font-size:10px;
+        margin-bottom: 0;
+      }
+      div{
+        width: 100%;
+        border:1px solid grey;
+        border-radius: 5px;
+        .bar_1, .bar_2,.bar_3,.bar_4,.bar_5,.bar_6,.bar_7,.bar_8, .bar_9{
+          height: 4px;
+          background-color: #415A76;
+          border-radius: 5px;
+        }
+        .bar_1{
+          width: 75%;
+        }
+        .bar_2{
+          width: 50%;
+        }
+        .bar_3{
+          width: 60%;
+        }
+        .bar_4{
+          width: 75%;
+        }
+        .bar_5{
+          width: 75%;
+        }
+        .bar_6{
+          width: 50%;
+        }
+        .bar_7{
+          width: 30%;
+        }
+        .bar_8{
+          width: 70%;
+        }
+        .bar_9{
+          width: 20%;
+        }
+      }//div bar
+    }//div
+
+  }//.skills
+  .interests{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    // align-items: center;
+    width: 100%;
+    // border:1px solid blue;
+    .intro{
+      color:#415A76;
+      width: 100%;
+      border-bottom:1px solid lightgrey;
+      margin-top: 20px;
+      margin-bottom: 16px;
+    }
+    .boxes{
+      .box1, .box2, .box3{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        margin-bottom: 8px;
+        p{
+          color:grey;
+          font-size: 12px;
+          margin: 0;
+          margin-left: 20px;
+        }
+        p.bicycle{
+          margin-left: 13px;
+        }
+        i{
+          color:#415A76;
+        }
+
+      }
+    }
+  }//.interests

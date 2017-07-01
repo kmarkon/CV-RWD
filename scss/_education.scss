@@ -1,0 +1,382 @@
+.education {
+  margin-top: 36px;
+#left_side_1{
+
+  width: 100%;
+  height: auto;
+  .intro{
+    color:map-get($colors, color5);
+    border-bottom:1px solid map-get($colors, color3);
+    // margin-top: 0;
+  }
+  .edu_1{
+    width: 100%;
+    height:auto;
+    display: flex;
+    flex-direction: row;
+
+    .data{
+      width: 30%;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      text-align: center;
+      p{
+        font-size: 12px;
+        color:map-get($colors, color3);
+      }
+      span{
+        font-size: 20px;
+        color:map-get($colors, color5);
+      }
+    }
+    .school{
+      width: 70%;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      #school{
+        font-size: 14px;
+        color:map-get($colors, color5);
+        border-bottom:1px solid map-get($colors, color3);
+        margin-bottom: 5px;
+        margin-top: 5px;
+      }
+      .department{
+        font-size: 12px;
+        color:map-get($colors, color2);
+        margin-top: 0;
+        margin-bottom: 8px;
+      }
+
+      .spec, .tech{
+        font-size: 10px;
+        color:map-get($colors, color2);
+        margin-top: 0;
+        margin-bottom: 0;
+      }
+    }
+  }//.edu_1
+  .edu_2{
+    width: 100%;
+    height:auto;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10px;
+    .data{
+      width: 30%;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      text-align: center;
+      p{
+        font-size: 12px;
+        color:map-get($colors, color3);
+      }
+      span{
+        font-size: 20px;
+        color:map-get($colors, color5);
+      }
+    }
+    .school{
+      width: 70%;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      #school{
+        font-size: 14px;
+        color:map-get($colors, color5);
+        border-bottom:1px solid map-get($colors, color3);
+        margin-bottom: 5px;
+        // margin-top: 5px;
+        margin-top: 10px;
+      }
+      .department{
+        font-size: 12px;
+        color:map-get($colors, color2);
+        margin-top: 0;
+        margin-bottom: 8px;
+      }
+      .spec{
+        font-size: 10px;
+        color:map-get($colors, color2);
+        margin-top: 0;
+        margin-bottom: 0;
+      }
+    }
+  }//.edu_2
+  .edu_3{
+    width: 100%;
+    height:auto;
+    display: flex;
+    flex-direction: row;
+    // border:1px solid red;
+    margin-bottom: 10px;
+    .data{
+      width: 30%;
+      height: 100%;
+      // border: 1px solid green;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      text-align: center;
+      p{
+        font-size: 12px;
+        color:map-get($colors, color3);
+        // margin-top:  10px;
+      }
+      span{
+        font-size: 20px;
+        color:map-get($colors, color5);
+      }
+    }
+    .school{
+      width: 70%;
+      height: 100%;
+      // border: 1px solid blue;
+      display: flex;
+      flex-direction: column;
+      #school{
+        font-size: 14px;
+        color:map-get($colors, color5);
+        border-bottom:1px solid map-get($colors, color3);
+        margin-bottom: 5px;
+        margin-top: 5px;
+      }
+      .department{
+        font-size: 12px;
+        color:map-get($colors, color2);
+        margin-top: 0;
+        margin-bottom: 8px;
+      }
+      .spec{
+        font-size: 10px;
+        color:map-get($colors, color2);
+        margin-top: 0;
+        margin-bottom: 0;
+      }
+    }
+  }//.edu_3
+}
+
+#left_side_2{
+  // padding-left: 20px;
+  width: 100%;
+  .intro{
+    color:map-get($colors, color5);
+    border-bottom:1px solid map-get($colors, color3);
+  }
+  .work_1{
+    width: 100%;
+    height:auto;
+    display: flex;
+    flex-direction: row;
+    // border:1px solid red;
+    margin-bottom: 10px;
+    .data{
+      width: 30%;
+      height: 100%;
+      // border: 1px solid green;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      text-align: center;
+      p{
+        font-size: 12px;
+        color:map-get($colors, color3);
+        margin-top: 30px;
+      }
+      span{
+        font-size: 20px;
+        color:map-get($colors, color5);
+      }
+    }
+    .company{
+      width: 70%;
+      height: 100%;
+      // border: 1px solid blue;
+      display: flex;
+      flex-direction: column;
+      #company{
+        font-size: 14px;
+        color:map-get($colors, color5);
+        border-bottom:1px solid map-get($colors, color3);
+        margin-bottom: 5px;
+        margin-top: 5px;
+      }
+      .position{
+        font-size: 12px;
+        color:map-get($colors, color2);
+        margin-top: 0;
+        margin-bottom: 8px;
+      }
+      .responsibilities{
+        font-size: 10px;
+        color:map-get($colors, color2);
+        margin-top: 0;
+        margin-bottom: 0;
+      }
+    }
+  }//.work_1
+  .work_2{
+    width: 100%;
+    height:auto;
+    display: flex;
+    flex-direction: row;
+    // border:1px solid red;
+    margin-bottom: 10px;
+    .data{
+      width: 30%;
+      height: 100%;
+      // border: 1px solid green;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      text-align: center;
+      p{
+        font-size: 12px;
+        color:map-get($colors, color3);
+        margin-top: 30px;
+      }
+      span{
+        font-size: 20px;
+        color:map-get($colors, color5);
+      }
+    }
+    .company{
+      width: 70%;
+      height: auto;
+      // border: 1px solid blue;
+      display: flex;
+      flex-direction: column;
+      #company{
+        font-size: 14px;
+        color:map-get($colors, color5);
+        border-bottom:1px solid map-get($colors, color3);
+        margin-top: 5px;
+        margin-bottom: 5px;
+      }
+      .position{
+        font-size: 12px;
+        color:map-get($colors, color2);
+        margin-top: 0;
+        margin-bottom: 8px;
+      }
+      .responsibilities{
+        font-size: 10px;
+        color:map-get($colors, color2);
+        margin-top: 0;
+        margin-bottom: 0;
+      }
+    }
+  }//.work_2
+  .work_3{
+    width: 100%;
+    height:auto;
+    display: flex;
+    flex-direction: row;
+    // border:1px solid red;
+    // margin-bottom: 10px;
+    .data{
+      width: 30%;
+      height: 100%;
+      // border: 1px solid green;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      text-align: center;
+      p{
+        font-size: 12px;
+        color:map-get($colors, color3);
+        margin-top: 30px;
+      }
+      span{
+        font-size: 20px;
+        color:map-get($colors, color5);
+      }
+    }
+    .company{
+      width: 70%;
+      height: 100%;
+      // border: 1px solid blue;
+      display: flex;
+      flex-direction: column;
+      #company{
+        font-size: 14px;
+        color:map-get($colors, color5);
+        border-bottom:1px solid map-get($colors, color3);
+        margin-top: 5px;
+        margin-bottom: 5px;
+      }
+      .position{
+        font-size: 12px;
+        color:map-get($colors, color2);
+        margin-top: 0;
+        margin-bottom: 8px;
+      }
+      .responsibilities{
+        font-size: 10px;
+        color:map-get($colors, color2);
+        margin-top: 0;
+        margin-bottom: 0;
+      }
+    }
+  }//.work_3
+}
+#left_side_3{
+
+  .intro{
+    color:map-get($colors, color5);
+    border-bottom:1px solid map-get($colors, color3);
+    margin-bottom: 10px;
+  }
+  .languages{
+    // border:1px solid red;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    .lang1, .lang2{
+      // margin-right: 30px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      // border:1px solid blue;
+      width: 50%;
+      height: 80%;
+      .ang{
+        width: 80%;
+        height: 50%;
+        background-image: url("../images/ang.jpg");
+        background-size: contain;
+        background-repeat: no-repeat;
+        margin-left: 35px;
+
+      }
+      .franc{
+        width: 80%;
+        height: 50%;
+        background-image: url("../images/franc.jpg");
+        background-size: contain;
+        background-repeat: no-repeat;
+        margin-left: 35px;
+      }
+      .stars{
+        margin-top: 5px;
+        width: 80%;
+        margin-left:20px;
+        i{
+          padding: 0;
+          color:map-get($colors, color5);
+        }
+
+      }
+    }
+  }
+}
+}
